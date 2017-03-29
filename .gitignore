@@ -1,3 +1,60 @@
+#PSOC
+#Ignore PSoC Creator temp and user specific files
+
+#Ignore Archive directory, bundles there
+Archive/*
+Backup/*
+Archive/
+Backup/
+
+#User specific files
+ComponentUpdateLog.txt
+*.Xwx47
+*.Estudiante 1
+*.cydsn/*.Xwx47
+*.cydsn/*.Estudiante 1
+
+# Random file
+*.cylib/CortexM0/
+
+#Projects optional files
+*.cydsn/codegentemp/
+*.cydsn/Generated_Source/
+*.cydsn/Export/
+
+#PSoC 5LP based projects
+*.cydsn/CortexM3/
+
+#PSoC 4 based projects
+*.cydsn/CortexM0/
+
+
+# Project Settings
+*.cywrk.*
+*.cyprj.*
+
+# Generated Assets and Resources
+Debug/
+Release/
+Export/
+*/codegentemp
+*/Generated_Source
+*_datasheet.pdf
+*_timing.html
+*.cycdx
+*.cyfit
+*.rpt
+*.svd
+
+
+
+
+
+
+
+
+
+#WINDOWS
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
